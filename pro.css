@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section{
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: 10rem 20rem;
+    height: 20rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+}
+.todo .ToDoList{
+    color: rgb(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.200);
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: xx-large;
+    font-style: oblique;
+    border-radius: 20px 10px;
+    border: 1.5px solid white;
+} 
+#btnInput{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+#input {
+    max-width: 300px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+}
+#input:focus {
+    border-radius: 4px 4px 2px 2px;
+    border: solid 1.5px rgb(96, 96, 96);
+}
+#input:hover {
+    outline: 1px solid lightgrey;
+}
+#btn{
+    margin-left: 20px;
+    background-color: #242424;
+    color: #ffffff7b;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: #242424;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#tasksAll{
+    width: 100%;
+    background-color: rgb(222, 222, 222);
+    color: rgb(255, 255, 255);
+    margin-top: 1.6rem;
+    border-radius: 20px;
+    border: 1.5px white solid;
+    padding-bottom: 10px;
+}
+#tasksAll #All{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
