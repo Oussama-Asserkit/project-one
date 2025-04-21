@@ -4,9 +4,8 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .section{
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.401);
     margin: 10rem 20rem;
     height: 20rem;
     border-radius: 20px;
